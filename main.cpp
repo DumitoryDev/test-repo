@@ -5,7 +5,7 @@ int main(void)
 {
    try
    {
-       
+     std::cout << "Hello, world!" << std::endl;       
    }
    catch(std::exception const & error)
    {
