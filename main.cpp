@@ -7,7 +7,7 @@ int main(void)
    {
      std::cout << "Hello, world!" << std::endl;       
    }
-   catch(std::exception const & error)
+   catch(const std::exception & error)
    {
      std::cerr << error.what() << std::endl;
    }
