@@ -11,6 +11,9 @@ int main(void)
    {
      std::cerr << error.what() << std::endl;
    }
+   catch(...)
+   {
+   }
 
    return 0;
 }
